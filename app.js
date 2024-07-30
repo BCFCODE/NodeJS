@@ -9,3 +9,8 @@ emitter.on('messageLogged', (arg) => {
 // Raise an event
 emitter.emit('messageLogged', { id: 1, url: 'http://' })
 
+// Exercise
+emitter.addListener('logging', ({ message }) => {
+  console.log(message)
+})
+emitter.emit('logging', { message: 'Logging...' })
