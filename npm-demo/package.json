@@ -11,5 +11,8 @@
   "dependencies": {
     "mongoose": "^8.6.3",
     "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6"
   }
 }
